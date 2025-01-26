@@ -10,7 +10,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Photo Gallery Application</title>
+    <title>Upload Photo</title>
     <?php include "./css.php" ?>
 </head>
 <body>
@@ -32,9 +32,11 @@
             <hr>
 
             <!-- Photo Show/Gallery Section start -->
-             <div>
-
-             </div>
+            <div>
+                <form action="gallery.php" method="POST">
+                    <button type="submit">Show Gallery</button>  
+                </form>
+            </div>
             <!-- Photo Show/Gallery Section end -->
         </div>
     </div>
