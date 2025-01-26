@@ -14,17 +14,6 @@
     <?php include "./css.php" ?>
 </head>
 <body>
-    <!-- <div class="container">
-        <form>
-            <fieldset>
-                <label for="nameField">Name</label>
-                <input type="text" id="nameField">
-            
-                <input class="button-primary" type="submit" value="Send">
-            </fieldset>
-        </form>
-    </div> -->
-
     <div class="container my-4">
     <h1>Edit Photo Gallery</h1>
         <?php
@@ -62,10 +51,7 @@
             <button type="submit" class="btn btn-primary">Update Gallery<a href="./gallery.php"></a></button>
             
         </form>
-
-       
         <hr>       
-        
     </div>
 </body>
 </html>

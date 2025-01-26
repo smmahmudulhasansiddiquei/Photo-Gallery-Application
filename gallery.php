@@ -36,7 +36,7 @@
                     <button type="submit">Edit</button>
                 </form>
                 <form action="index.php">
-                        <button type="submit">Back to Upload</button>
+                        <button type="submit">Upload</button>
                 </form>
             </div>
             <?php

@@ -25,7 +25,8 @@
                 //insert the file path in DB
                 $conn->query("INSERT INTO photos (title, description, image_path) VALUES ('$title', '$description', '$filePath')");
 
-                header("location: index.php");
+                echo "File uploaded successfully!!!";
+                header("location: gallery.php");
                 exit;
             }
         }else{

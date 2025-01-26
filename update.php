@@ -30,7 +30,8 @@
             if(move_uploaded_file($image['tmp_name'], $filePath)){
                 //insert the file path in DB
                 $result = $conn->query("UPDATE photos SET title = '$title', description = '$description', image_path = '$filePath' WHERE id = '$id'");
-                echo "Update";
+                echo "Updated successfully";
+                header('location: gallery.php');
                 exit;
             }
         }else{

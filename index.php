@@ -28,16 +28,7 @@
                 </form>
             </div>
             <!-- Photo Upload section end -->
-
             <hr>
-
-            <!-- Photo Show/Gallery Section start -->
-            <div>
-                <form action="gallery.php" method="POST">
-                    <button type="submit">Show Gallery</button>  
-                </form>
-            </div>
-            <!-- Photo Show/Gallery Section end -->
         </div>
     </div>
 </body>
